@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: cool-catalog-gdlt
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: cool-catalog-gdlt
+    app.kubernetes.io/part-of: cool-catalog
+  name: cool-catalog-gdlt
+spec:
+  ports:
+  - port: 8084
+    targetPort: 8084
+  selector:
+    app.kubernetes.io/instance: cool-catalog-gdlt
+status:
+  loadBalancer: {}
