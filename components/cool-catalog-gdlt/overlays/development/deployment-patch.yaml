@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: cool-catalog-gdlt
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/jinqi-1-tenant/cool-catalog/cool-catalog-gdlt@sha256:925931a9cfea725c1ea5bda09180b48e5ac533b916e8ed08c749f6699b90e302
+        name: container-image
+        resources: {}
+status: {}
