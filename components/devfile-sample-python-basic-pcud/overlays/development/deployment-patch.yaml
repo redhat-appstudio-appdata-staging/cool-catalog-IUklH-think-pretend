@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-pcud
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/jinqi-1-tenant/cool-catalog/devfile-sample-python-basic-pcud@sha256:54581e67c509a61cb87fac0ca567b6082d65336c8e372ccf2075e55ecd64f4b6
+        name: my-python
+        resources: {}
+status: {}
