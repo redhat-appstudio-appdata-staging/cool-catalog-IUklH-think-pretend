@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-python-basic-pcud
     app.kubernetes.io/part-of: cool-catalog
-  name: devfile-sample-python-bas0du0
+  name: devfile-sample-python-basf2nq
 spec:
   path: /
   port:
