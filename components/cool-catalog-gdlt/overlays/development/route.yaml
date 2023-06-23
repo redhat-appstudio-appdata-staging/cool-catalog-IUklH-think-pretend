@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: cool-catalog-gdlt
     app.kubernetes.io/part-of: cool-catalog
-  name: cool-catalog-gdltu8sw
+  name: cool-catalog-gdlt5kvm
 spec:
   port:
     targetPort: 8084
