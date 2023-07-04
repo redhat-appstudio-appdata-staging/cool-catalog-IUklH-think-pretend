@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/jinqi-1-tenant/cool-catalog/cool-catalog-gdlt@sha256:6475e48650014824d0c7fb4a3b4f62106e1450092349eb3b9415c9eec0479411
+      - image: quay.io/redhat-user-workloads-stage/jinqi-1-tenant/cool-catalog/cool-catalog-gdlt@sha256:a96b1888224f43731df6bed081a77f577071e9aa2924155a9702c204a3cfbaa5
         name: container-image
         resources: {}
 status: {}
