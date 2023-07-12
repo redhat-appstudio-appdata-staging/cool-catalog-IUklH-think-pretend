@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: cool-catalog-gdlt
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/jinqi-1-tenant/cool-catalog/cool-catalog-gdlt@sha256:e7729757138d408527c9d223454436b3eb94821af409b46bd4f1555c6443486b
+      - image: quay.io/redhat-user-workloads-stage/jinqi-1-tenant/cool-catalog/cool-catalog-gdlt@sha256:a96b1888224f43731df6bed081a77f577071e9aa2924155a9702c204a3cfbaa5
         imagePullPolicy: Always
         name: container-image
         ports:
